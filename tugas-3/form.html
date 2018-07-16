@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Form</title>
+</head>
+<body>
+<form method = "POST" action="simpan.php">
+	Username : <input type="text" required="" maxlenght="100" autofocus = "" placeholder="Silahkan Ketik" name= "username"><br/>
+	Password : <input type="password" name="pwd"><br/>
+	Gender : <input type="radio" name="gender" value = "Pria">Pria  <input type="radio" name="gender" value = "Wanita"> Wanita<br/>
+	Pendidikan : <input type="checkbox" name="pendidikan[]"> SMA <input type="checkbox" name="pendidikan[]"> S1<input type="checkbox" name="pendidikan[]"> S2  <br/>
+	Foto :<input type="file" name=""><br/>
+	email : <input type="email" name=""><br/> 
+	number : <input type="number" name="" min="0" max = "100" step = "3" ><br/> 
+	range : <input type="range" name=""min="0" max = "100"> <br/>
+	Hobi : 
+	<select name="hobi" multiple = "">
+		<option Value ="1">Travelling</option>
+		<option Value ="2">Coding</option>
+		<option Value ="3">Fotografi</option>
+	</select> <br/>
+	Biografi : <textarea name="bio"></textarea> <br/>
+	<button type = "button" onclick = "alert('wow')">Klik Saya</button>
+
+	
+	<input type="submit" name="" Value = "Submit">
+	<input type="reset" name="">
+</form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+/* mendefinisikan folder test dengan semua file didalamnya */
+
+test/*
+
+/* mendefinisikan file index.php */
+
+index.php
+
+/* mendefinisikan semua file yang berextensi .txt */
+
+*.txt

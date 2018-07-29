@@ -1,0 +1,41 @@
+body{  
+ background-color:#c3c4c4;  
+ font-family:verdana,Lucida, Tahoma,Century gothic, sans-serif;  
+ font-size: 13px;  
+ 
+ }  
+ .awal {  
+ background-color:#016394;  
+ width: 600px;  
+ padding: 11px 50px 50px 50px;  
+ border-radius: 25px;  
+ margin: auto;  
+ margin-top:50px;  
+ border: 1px solid #EEE;  
+ -moz-box-shadow: 0px 0px 25px black; 
+ -webkit-box-shadow: 0px 0px 50px; 
+ }  
+ .kedua {  
+ margin-top: -5px;   
+ width: 48px;  
+ float: left;  
+ text-align: center;  
+ padding: 10px 0;  
+ } 
+ h3{
+ 	border-bottom: 3px solid rgb(130, 130, 130);
+ 	color: #f4fcfc;
+ }
+ img{
+ width: 60px;float: right;margin-right: 14px;
+
+ } 
+ table,ul{  
+ font-size: 10px; 
+ color: #f4fcfc;
+
+ }  
+ tr {  
+ vertical-align: top;  
+ }  
+
